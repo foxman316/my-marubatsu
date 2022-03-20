@@ -1,0 +1,19 @@
+table.marubatsu{
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+table.marubatsu td{
+  border:1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+table.marubatsu td:hover{
+  background-color: #FEE;
+}
+*[data-hidden="1"]{
+  display:none;
+}

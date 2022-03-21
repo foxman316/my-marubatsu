@@ -3,16 +3,40 @@ table.marubatsu{
   margin: 20px;
 }
 
+.box1{
+padding: 10px 10px;
+margin: 16px 15px;
+width: 290px;
+border: double 5px black;
+background-color: aliceblue;
+}
+
+.box1 h1{
+text-align: center;
+
+}
+
+
+
+body{
+background-image: url(img/shhibahu.jpg);
+}
+
 table.marubatsu td{
   border:1px solid black;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
+  background-color: aliceblue;
+}
+.start{
+margin: 0 15px;
+
 }
 table.marubatsu td:hover{
-  background-color: #FEE;
+  background-color: rgb(235, 232, 66);
 }
 *[data-hidden="1"]{
   display:none;
